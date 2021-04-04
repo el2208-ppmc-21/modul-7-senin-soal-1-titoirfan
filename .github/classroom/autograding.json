@@ -5,7 +5,7 @@
       "setup": "make soal-01",
       "run": "./soal-01",
       "input": "A\r\nJika_Cinta_Dia,Geisha\r\nA\r\nBaby_Shark,DooDoo\r\nA\r\nGangnam_Style,PSY\r\nN\r\nN\r\nN\r\nP\r\nD\r\nP\r\nP\r\nR\r\nD\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n-> Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n   Gangnam_Style by PSY\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n   Gangnam_Style by PSY\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n-> Baby_Shark by DooDoo\r\n   Gangnam_Style by PSY\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n-> Gangnam_Style by PSY\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n-> Baby_Shark by DooDoo\r\n   Gangnam_Style by PSY\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n-> Baby_Shark by DooDoo\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Jika_Cinta_Dia by Geisha\r\n   Baby_Shark by DooDoo\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Jika_Cinta_Dia by Geisha",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -15,7 +15,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nL1,P1\r\nA\r\nL2,P2\r\nN\r\nN\r\nP\r\nD\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:       \r\n   L1 by P1        \r\n\r\n\r\nNow Playing:       \r\n   L1 by P1        \r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\n        \r\nNow Playing:\r\n   L1 by P1\r\n-> L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L1 by P1\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L1 by P1\r\n   L2 by P2\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   L1 by P1\r\n-> L2 by P2\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> L1 by P1",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nPelangi,Hivi!\r\nN\r\nP\r\nR\r\nP\r\nP\r\nD\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nThought_Crime,Yorushika\r\nN\r\nN\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Thought Crime by Yorushika\r\n\r\n\r\nNow Playing:\r\n-> Thought Crime by Yorushika\r\n\r\n\r\nNow Playing:\r\n   Thought Crime by Yorushika",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Thought_Crime by Yorushika\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Thought_Crime by Yorushika\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Thought_Crime by Yorushika",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -45,7 +45,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nL1,P1\r\nD\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L1 by P1\r\n\r\n\r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L1 by P1\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -55,7 +55,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nResah,Payung_Teduh\r\nR\r\nP\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Resah by Payung Teduh\r\n\r\n\r\nNow Playing:\r\n-> Resah by Payung Teduh\r\n\r\n\r\nNow Playing:\r\n   Resah by Payung Teduh",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Resah by Payung_Teduh\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Resah by Payung_Teduh\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Resah by Payung_Teduh",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -65,7 +65,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nL2,P2\r\nA\r\nL3,P3\r\nN\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n   L2 by P2\r\n   L3 by P3\r\n\r\n\r\nNow Playing:\r\n-> L2 by P2\r\n   L3 by P3",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L2 by P2\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L2 by P2\r\n   L3 by P3\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> L2 by P2\r\n   L3 by P3",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -75,7 +75,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\neight,IU\r\nA\r\nParadise,Coldplay\r\nR\r\nD\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:       \r\n   eight by IU     \r\n\r\n\r\nNow Playing:\r\n   eight by IU\r\n   Paradise by Coldplay\r\n\r\n\r\nNow Playing:  \r\n-> eight by IU\r\n   Paradise by Coldplay\r\n\r\n\r\nNow Playing:\r\n-> eight by IU",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   eight by IU\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   eight by IU\r\n   Paradise by Coldplay\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> eight by IU\r\n   Paradise by Coldplay\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> eight by IU",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -85,7 +85,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nL4,P4\r\nA\r\nL5,P5\r\nD\r\nN\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n   L5 by P5\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n\r\n\r\nNow Playing:\r\n-> L4 by P4",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L4 by P4\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   L4 by P4\r\n   L5 by P5\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   L4 by P4\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> L4 by P4",
       "comparison": "included",
       "timeout": 1,
       "points": 10
@@ -95,7 +95,7 @@
       "setup": "",
       "run": "./soal-01",
       "input": "A\r\nTerlalu_Lama_Sendiri,Kunto_Aji\r\nA\r\nRehat,Kunto_Aji\r\nR\r\nN\r\nP\r\nE",
-      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n-> Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n-> Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n-> Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Terlalu_Lama_Sendiri by Kunto_Aji\r\n\r\nMasukkan Perintah: Masukkan Nama Lagu dan Penyanyi: \r\nNow Playing:\r\n   Terlalu_Lama_Sendiri by Kunto_Aji\r\n   Rehat by Kunto_Aji\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Terlalu_Lama_Sendiri by Kunto_Aji\r\n   Rehat by Kunto_Aji\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n   Terlalu_Lama_Sendiri by Kunto_Aji\r\n-> Rehat by Kunto_Aji\r\n\r\nMasukkan Perintah: \r\nNow Playing:\r\n-> Terlalu_Lama_Sendiri by Kunto_Aji\r\n   Rehat by Kunto_Aji",
       "comparison": "included",
       "timeout": 1,
       "points": 10
