@@ -120,12 +120,15 @@ int main()
 
         // PENTING, BUAT PAKE FGETS
         getchar();
-        
+
         // ADD LAGU
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
             scanf("%[^\n]s",str);
+            char ch = '\n';
+            strncat(str, &ch, 1);
+
             token = strtok(str, ",");
             strcpy(songBuf.author, token);
             token = strtok(NULL, ",");
@@ -133,6 +136,9 @@ int main()
             songBuf.nowPlayingId = songId;
             songId++;
             push(currPlaylist, songBuf);
+
+            // Clear buffer
+            getchar();
         }
 
         // NEXT
