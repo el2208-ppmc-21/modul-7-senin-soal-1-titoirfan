@@ -100,13 +100,13 @@ int main()
     stack *currPlaylist;
     char *token;
     struct song songBuf;
-    char str[76];
+    char str[75];
     currPlaylist = (stack *)malloc(sizeof(stack));
 
     // PENTING!!! INISIALISASI
     currPlaylist->top = NULL;
 
-    char cmd;
+    char cmd = 'X';
     int songId = 0;
     int nowIndex = -1;
     int numOfSong = 0;
