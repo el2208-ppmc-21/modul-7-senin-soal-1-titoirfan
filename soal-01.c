@@ -118,15 +118,11 @@ int main()
         printf("\nMasukkan Perintah: ");
         scanf("%c", &cmd);
 
-        // PENTING, BUAT PAKE FGETS
-        getchar();
-
         // ADD LAGU
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
             scanf("%s", str);
-            getchar();
             
             char ch = '\n';
             strncat(str, &ch, 1);        
@@ -138,6 +134,9 @@ int main()
             songBuf.nowPlayingId = songId;
             songId++;
             push(currPlaylist, songBuf);
+            
+            // Clear buffer
+            getchar();
         }
 
         // NEXT
