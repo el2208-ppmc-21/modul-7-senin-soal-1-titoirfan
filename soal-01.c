@@ -126,9 +126,11 @@ int main()
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
             scanf("%s", str);
+            getchar();
+            
             char ch = '\n';
-            strncat(str, &ch, 1);
-
+            strncat(str, &ch, 1);        
+            
             token = strtok(str, ",");
             strcpy(songBuf.author, token);
             token = strtok(NULL, ",");
