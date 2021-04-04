@@ -100,7 +100,8 @@ int main()
     stack *currPlaylist;
     char *token;
     struct song songBuf;
-    char str[75];
+    char *str = NULL;
+    size_t bufsize = 0;
     currPlaylist = (stack *)malloc(sizeof(stack));
 
     // PENTING!!! INISIALISASI
@@ -125,9 +126,7 @@ int main()
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
-            scanf("%1023[^\n]\n",str);
-//             char ch = '\n';
-//             strncat(str, &ch, 1);
+            getline(&str, &bufsize, stdin);
             
             printf("str: %s\n", str);
 //             token = strtok(str, ",");
