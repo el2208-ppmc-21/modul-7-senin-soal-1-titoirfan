@@ -136,9 +136,6 @@ int main()
             songBuf.nowPlayingId = songId;
             songId++;
             push(currPlaylist, songBuf);
-            
-            // Clear buffer
-            getchar();
         }
 
         // NEXT
@@ -163,7 +160,11 @@ int main()
         {
             pop(currPlaylist);
             songId--;
-        }
+        }            
+        
+        // Clear buffer
+        getchar();
+        getchar();
     }
     return 0;
 }
