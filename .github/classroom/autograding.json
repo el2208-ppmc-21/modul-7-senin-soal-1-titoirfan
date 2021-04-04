@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "A\r\nJika Cinta Dia,Geisha\r\nA\r\nBaby Shark,DooDoo\r\nA\r\nGangnam Style,PSY\r\nN\r\nN\r\nN\r\nP\r\nD\r\nP\r\nP\r\nR\r\nD\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n-> Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n   Gangnam Style by PSY\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n-> Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n   Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha\r\n   Baby Shark by DooDoo\r\n\r\n\r\nNow Playing:\r\n-> Jika Cinta Dia by Geisha",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nL1,P1\r\nA\r\nL2,P2\r\nN\r\nN\r\nP\r\nD\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:       \r\n   L1 by P1        \r\n\r\n\r\nNow Playing:       \r\n   L1 by P1        \r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\n        \r\nNow Playing:\r\n   L1 by P1\r\n-> L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1\r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n-> L1 by P1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nPelangi,Hivi!\r\nN\r\nP\r\nR\r\nP\r\nP\r\nD\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n-> Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\n   Pelangi by Hivi!\r\n\r\n\r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nThought Crime,Yorushika\r\nN\r\nN\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Thought Crime by Yorushika\r\n\r\n\r\nNow Playing:\r\n-> Thought Crime by Yorushika\r\n\r\n\r\nNow Playing:\r\n   Thought Crime by Yorushika",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nL1,P1\r\nD\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L1 by P1\r\n\r\n\r\nNow Playing:\r\nPlaylist kosong! Tambahkan lagu!",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nResah,Payung Teduh\r\nR\r\nP\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Resah by Payung Teduh\r\n\r\n\r\nNow Playing:\r\n-> Resah by Payung Teduh\r\n\r\n\r\nNow Playing:\r\n   Resah by Payung Teduh",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nL2,P2\r\nA\r\nL3,P3\r\nN\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L2 by P2\r\n\r\n\r\nNow Playing:\r\n   L2 by P2\r\n   L3 by P3\r\n\r\n\r\nNow Playing:\r\n-> L2 by P2\r\n   L3 by P3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\neight,IU\r\nA\r\nParadise,Coldplay\r\nR\r\nD\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:       \r\n   eight by IU     \r\n\r\n\r\nNow Playing:\r\n   eight by IU\r\n   Paradise by Coldplay\r\n\r\n\r\nNow Playing:  \r\n-> eight by IU\r\n   Paradise by Coldplay\r\n\r\n\r\nNow Playing:\r\n-> eight by IU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nL4,P4\r\nA\r\nL5,P5\r\nD\r\nN\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n   L5 by P5\r\n\r\n\r\nNow Playing:\r\n   L4 by P4\r\n\r\n\r\nNow Playing:\r\n-> L4 by P4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "A\r\nTerlalu Lama Sendiri,Kunto Aji\r\nA\r\nRehat,Kunto AJi\r\nR\r\nN\r\nP\r\nE",
+      "output": "Now Playing:\r\nPlaylist kosong! Tambahkan lagu!\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n-> Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n   Terlalu Lama Sendiri by Kunto Aji\r\n-> Rehat by Kunto Aji\r\n\r\n\r\nNow Playing:\r\n-> Terlalu Lama Sendiri by Kunto Aji\r\n   Rehat by Kunto Aji",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
