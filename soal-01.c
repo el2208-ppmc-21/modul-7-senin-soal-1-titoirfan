@@ -125,7 +125,7 @@ int main()
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
-            scanf("%s",str);
+            scanf("%[^\n]",str);
 //             char ch = '\n';
 //             strncat(str, &ch, 1);
             
