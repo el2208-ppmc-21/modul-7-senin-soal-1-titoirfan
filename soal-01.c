@@ -136,9 +136,6 @@ int main()
             songBuf.nowPlayingId = songId;
             songId++;
             push(currPlaylist, songBuf);
-
-            // Clear buffer
-            getchar();
         }
 
         // NEXT
