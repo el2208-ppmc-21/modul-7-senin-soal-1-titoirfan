@@ -125,14 +125,14 @@ int main()
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
-//             fgets(str, 76, stdin);
-//             token = strtok(str, ",");
-//             strcpy(songBuf.author, token);
-//             token = strtok(NULL, ",");
-//             strcpy(songBuf.songName, token);
-//             songBuf.nowPlayingId = songId;
-//             songId++;
-//             push(currPlaylist, songBuf);
+            scanf("%[^\n]s",str);
+            token = strtok(str, ",");
+            strcpy(songBuf.author, token);
+            token = strtok(NULL, ",");
+            strcpy(songBuf.songName, token);
+            songBuf.nowPlayingId = songId;
+            songId++;
+            push(currPlaylist, songBuf);
         }
 
         // NEXT
@@ -155,7 +155,7 @@ int main()
         // Delete Top of the Playlist
         if (cmd == 'D')
         {
-//             pop(currPlaylist);
+            pop(currPlaylist);
             songId--;
         }
     }
