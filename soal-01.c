@@ -100,8 +100,7 @@ int main()
     stack *currPlaylist;
     char *token;
     struct song songBuf;
-    char *str = NULL;
-    size_t bufsize = 0;
+    char str[75];
     currPlaylist = (stack *)malloc(sizeof(stack));
 
     // PENTING!!! INISIALISASI
@@ -112,8 +111,8 @@ int main()
     int nowIndex = -1;
     int numOfSong = 0;
 
-//     while (cmd != 'E')
-//     {
+    while (cmd != 'E')
+    {
         showPlaylist(currPlaylist, nowIndex);
 
         printf("\nMasukkan Perintah: ");
@@ -126,16 +125,17 @@ int main()
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
-            getline(&str, &bufsize, stdin);
-            
-            printf("str: %s\n", str);
-//             token = strtok(str, ",");
-//             strcpy(songBuf.author, token);
-//             token = strtok(NULL, ",");
-//             strcpy(songBuf.songName, token);
-//             songBuf.nowPlayingId = songId;
-//             songId++;
-//             push(currPlaylist, songBuf);
+            scanf("%s", str);
+            char ch = '\n';
+            strncat(str, &ch, 1);
+
+            token = strtok(str, ",");
+            strcpy(songBuf.author, token);
+            token = strtok(NULL, ",");
+            strcpy(songBuf.songName, token);
+            songBuf.nowPlayingId = songId;
+            songId++;
+            push(currPlaylist, songBuf);
 
             // Clear buffer
             getchar();
@@ -164,6 +164,6 @@ int main()
             pop(currPlaylist);
             songId--;
         }
-//     }
+    }
     return 0;
 }
