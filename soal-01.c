@@ -119,46 +119,45 @@ int main()
         scanf("%c", &cmd);
 
         // PENTING, BUAT PAKE FGETS
-        getchar();
+//         getchar();
         
-        printf("%c\n", cmd);
-//         // ADD LAGU
-//         if (cmd == 'A')
-//         {
-//             printf("Masukkan Nama Lagu dan Penyanyi: ");
-//             fgets(str, 76, stdin);
-//             token = strtok(str, ",");
-//             strcpy(songBuf.author, token);
-//             token = strtok(NULL, ",");
-//             strcpy(songBuf.songName, token);
-//             songBuf.nowPlayingId = songId;
-//             songId++;
-//             push(currPlaylist, songBuf);
-//         }
+        // ADD LAGU
+        if (cmd == 'A')
+        {
+            printf("Masukkan Nama Lagu dan Penyanyi: ");
+            fgets(str, 76, stdin);
+            token = strtok(str, ",");
+            strcpy(songBuf.author, token);
+            token = strtok(NULL, ",");
+            strcpy(songBuf.songName, token);
+            songBuf.nowPlayingId = songId;
+            songId++;
+            push(currPlaylist, songBuf);
+        }
 
-//         // NEXT
-//         if (cmd == 'N')
-//         {
-//             nowIndex++;
-//         }
+        // NEXT
+        if (cmd == 'N')
+        {
+            nowIndex++;
+        }
 
-//         // PREVIOUS
-//         if (cmd == 'P')
-//         {
-//             nowIndex--;
-//         }
+        // PREVIOUS
+        if (cmd == 'P')
+        {
+            nowIndex--;
+        }
 
-//         // RESTART to 0
-//         if (cmd == 'R')
-//         {
-//             nowIndex = 0;
-//         }
-//         // Delete Top of the Playlist
-//         if (cmd == 'D')
-//         {
-//             pop(currPlaylist);
-//             songId--;
-//         }
+        // RESTART to 0
+        if (cmd == 'R')
+        {
+            nowIndex = 0;
+        }
+        // Delete Top of the Playlist
+        if (cmd == 'D')
+        {
+            pop(currPlaylist);
+            songId--;
+        }
     }
     return 0;
 }
