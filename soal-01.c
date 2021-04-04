@@ -100,7 +100,7 @@ int main()
     stack *currPlaylist;
     char *token;
     struct song songBuf;
-    char str[75];
+    char str[76];
     currPlaylist = (stack *)malloc(sizeof(stack));
 
     // PENTING!!! INISIALISASI
