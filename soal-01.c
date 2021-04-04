@@ -117,8 +117,6 @@ int main()
 
         printf("\nMasukkan Perintah: ");
         scanf("%c", &cmd);
-        
-        printf("cmd: %c\n", cmd);
 
         // ADD LAGU
         if (cmd == 'A')
