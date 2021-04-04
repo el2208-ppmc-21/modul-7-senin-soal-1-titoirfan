@@ -111,8 +111,8 @@ int main()
     int nowIndex = -1;
     int numOfSong = 0;
 
-    while (cmd != 'E')
-    {
+//     while (cmd != 'E')
+//     {
         showPlaylist(currPlaylist, nowIndex);
 
         printf("\nMasukkan Perintah: ");
@@ -128,14 +128,15 @@ int main()
             scanf("%[^\n]s",str);
             char ch = '\n';
             strncat(str, &ch, 1);
-
-            token = strtok(str, ",");
-            strcpy(songBuf.author, token);
-            token = strtok(NULL, ",");
-            strcpy(songBuf.songName, token);
-            songBuf.nowPlayingId = songId;
-            songId++;
-            push(currPlaylist, songBuf);
+            
+            printf("str: %s\n", str);
+//             token = strtok(str, ",");
+//             strcpy(songBuf.author, token);
+//             token = strtok(NULL, ",");
+//             strcpy(songBuf.songName, token);
+//             songBuf.nowPlayingId = songId;
+//             songId++;
+//             push(currPlaylist, songBuf);
 
             // Clear buffer
             getchar();
@@ -164,6 +165,6 @@ int main()
             pop(currPlaylist);
             songId--;
         }
-    }
+//     }
     return 0;
 }
