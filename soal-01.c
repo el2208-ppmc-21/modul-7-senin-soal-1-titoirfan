@@ -125,10 +125,9 @@ int main()
         if (cmd == 'A')
         {
             printf("Masukkan Nama Lagu dan Penyanyi: ");
-//             scanf("%[^\n]s",str);
+            scanf("%s",str);
 //             char ch = '\n';
 //             strncat(str, &ch, 1);
-            fgets(str, 76, stdin);
             
             printf("str: %s\n", str);
 //             token = strtok(str, ",");
