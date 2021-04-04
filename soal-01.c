@@ -119,7 +119,7 @@ int main()
         scanf("%c", &cmd);
 
         // PENTING, BUAT PAKE FGETS
-//         getchar();
+        getchar();
         
         // ADD LAGU
         if (cmd == 'A')
@@ -132,7 +132,7 @@ int main()
             strcpy(songBuf.songName, token);
             songBuf.nowPlayingId = songId;
             songId++;
-            push(currPlaylist, songBuf);
+//             push(currPlaylist, songBuf);
         }
 
         // NEXT
@@ -155,7 +155,7 @@ int main()
         // Delete Top of the Playlist
         if (cmd == 'D')
         {
-            pop(currPlaylist);
+//             pop(currPlaylist);
             songId--;
         }
     }
